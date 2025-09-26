@@ -1,0 +1,51 @@
+# SQL ↔ pandas Cheat Sheet
+
+## SELECT
+SQL:
+```sql
+SELECT column1, column2 FROM table;
+
+df[["column1", "column2"]]
+
+WHERE
+SELECT * FROM table WHERE column1 > 10;
+
+df[df["column1"] > 10]
+
+
+You can then open it in **VS Code, Jupyter, or any Markdown editor**.
+
+---
+
+## 🔹 2. Jupyter Notebook
+- Create a `.ipynb` notebook.  
+- Store the **SQL query in a Markdown cell** and the **pandas equivalent in a code cell**.  
+- You can even **run the pandas examples** live on a dummy dataset.
+
+---
+
+## 🔹 3. Notion / Obsidian
+- Paste the cheat sheet into a Notion page or Obsidian note.  
+- Tag it (e.g., `#sql`, `#pandas`, `#cheatsheet`).  
+- Easy to search later.
+
+---
+
+## 🔹 4. PDF / OneNote
+- Save as a **PDF cheatsheet** (Markdown → export as PDF).  
+- Or copy into **OneNote** if you like organizing into notebooks.
+
+---
+
+## 🔹 5. GitHub Gist
+- Store the cheat sheet as a **public or private gist** (`cheatsheet.md`).  
+- Then you can share or revisit it easily online.  
+
+---
+
+⚡ **Best choice if you want both readability + reusability:**  
+👉 Markdown + Jupyter Notebook (you get the best of both documentation + executable code).  
+
+---
+
+Would you like me to **format the SQL ↔ pandas list you asked for earlier as a clean Markdown cheat sheet** so you can just copy-paste and save it?
