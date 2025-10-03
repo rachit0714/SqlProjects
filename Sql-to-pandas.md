@@ -1,4 +1,3 @@
-````markdown
 # 🐼 SQL ↔ pandas Cheat Sheet
 
 A quick reference guide for translating common SQL queries into pandas DataFrame operations.
