@@ -231,6 +231,3 @@ df = df[df["column1"] >= 0]
 * **JOIN → merge()**
 * **UNION → concat()**
 * **UPDATE/DELETE → loc[] or filtering**
-
-```
-
