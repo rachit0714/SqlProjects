@@ -1,7 +1,3 @@
-Perfect — here’s a **ready-to-paste Markdown file** with the **13 SQL ↔ pandas equivalents** we discussed earlier. You can copy this into GitHub as `cheatsheet.md` and it will render nicely.
-
----
-
 ````markdown
 # 🐼 SQL ↔ pandas Cheat Sheet
 
@@ -237,11 +233,5 @@ df = df[df["column1"] >= 0]
 * **UNION → concat()**
 * **UPDATE/DELETE → loc[] or filtering**
 
-Keep this as a quick conversion guide when switching between SQL and pandas.
-
 ```
 
----
-
-Would you like me to also add a **mini example dataset** at the top of the markdown (like a `df` preview) so you can test each pandas command right away in a Jupyter notebook?
-```
